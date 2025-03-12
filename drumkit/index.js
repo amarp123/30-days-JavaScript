@@ -4,6 +4,7 @@ for(var i=0;i<numberofdrumbuttons;i++){
 
 document.querySelectorAll(".drum")[i].addEventListener("click",function(){
    var buttonhtml=this.innerHTML;
+   makesound(buttonhtml);
 
    
 });
